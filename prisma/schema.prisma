@@ -1,0 +1,25 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+//SDK is generated here, use this client file that they made
+generator client {
+  provider = "prisma-client-js"
+}
+
+//what database we want and the env
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+
+model User {
+  id String @id @default(uuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  email String
+  firstName String
+  lastName String
+  password String
+}
+
