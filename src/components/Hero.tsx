@@ -116,14 +116,11 @@ export default function Hero() {
           />
         </div>
         <div className='mx-auto max-w-2xl py-32 sm:py-48 lg:py-56'>
-          <div className='hidden sm:mb-8 sm:flex sm:justify-center'>
+          <div className='sm:mb-8 sm:flex sm:justify-center'>
             <h1 className='text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl'>
-              Hi my name is Vardan!
+              Hi my name is Vardan! Welcome to my Blog.
             </h1>
           </div>
-          <h2 className='text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl'>
-            Welcome to my Blog
-          </h2>
         </div>
         <div
           className='absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]'
